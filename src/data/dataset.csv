@@ -1,0 +1,151 @@
+text,label
+hello,greet
+hi,greet
+hey,greet
+hey there,greet
+good morning,greet
+good evening,greet
+good afternoon,greet
+hi bot,greet
+hello there,greet
+hey buddy,greet
+what's up,greet
+yo,greet
+hello!,greet
+good to see you,greet
+hiya,greet
+Book a flight to Delhi,book_flight
+I want to fly to Mumbai tomorrow,book_flight
+Book me a ticket to Chennai on Friday,book_flight
+I need a flight to Bangalore,book_flight
+Reserve a seat to Kolkata next week,book_flight
+Get me a flight to Delhi on Monday,book_flight
+Schedule a flight to Mumbai,book_flight
+I want to book airfare to Chennai,book_flight
+Book flight tickets to Bangalore,book_flight
+I am traveling to Kolkata next month,book_flight
+Find me a flight to Delhi,book_flight
+I need to go to Mumbai this weekend,book_flight
+Please book my flight to Chennai,book_flight
+Reserve airline tickets to Bangalore,book_flight
+Book my travel to Kolkata,book_flight
+Order me a pizza,order_food
+I want to eat biryani,order_food
+Get me a burger,order_food
+Order noodles for dinner,order_food
+I want to order pasta,order_food
+Please order a pizza for me,order_food
+Can you get biryani?,order_food
+Order two burgers,order_food
+I need noodles,order_food
+Order pasta for lunch,order_food
+Get me some pizza,order_food
+I feel like eating biryani,order_food
+Place a food order,order_food
+Order dinner for me,order_food
+Can I order food?,order_food
+Cancel my flight booking,cancel_booking
+I want to cancel my ticket,cancel_booking
+Cancel my reservation,cancel_booking
+Please cancel my booking,cancel_booking
+I need to cancel my flight,cancel_booking
+Cancel the ticket I booked,cancel_booking
+I want to call off my reservation,cancel_booking
+Cancel my travel plans,cancel_booking
+Cancel my airline booking,cancel_booking
+Stop my flight booking,cancel_booking
+I don't want this booking anymore,cancel_booking
+Cancel everything,cancel_booking
+Please cancel my ticket,cancel_booking
+I want a cancellation,cancel_booking
+Cancel the booking immediately,cancel_booking
+What's the weather in Delhi?,check_weather
+Is it raining in Mumbai?,check_weather
+Tell me the weather forecast for Chennai,check_weather
+How is the weather in Bangalore today?,check_weather
+Will it be sunny in Kolkata tomorrow?,check_weather
+What's today's weather in Delhi?,check_weather
+Give me the weather update for Mumbai,check_weather
+How hot is it in Chennai?,check_weather
+Weather forecast for Bangalore,check_weather
+Is Kolkata cold today?,check_weather
+Tell me tomorrow's weather in Delhi,check_weather
+How is the climate in Mumbai?,check_weather
+Any rain expected in Chennai?,check_weather
+Weather report for Bangalore,check_weather
+What's the weather like in Kolkata?,check_weather
+Track my order,track_order
+Where is my order?,track_order
+Check my order status,track_order
+I want to track my food order,track_order
+Track my delivery,track_order
+Where is my package?,track_order
+Is my order on the way?,track_order
+Track my recent order,track_order
+Check delivery status,track_order
+Tell me my order location,track_order
+When will my order arrive?,track_order
+Track my shipment,track_order
+Check order progress,track_order
+Order tracking please,track_order
+Help me track my order,track_order
+Remind me to call mom tomorrow,set_reminder
+Set a reminder for 6 pm,set_reminder
+Remind me to study tonight,set_reminder
+Set reminder for meeting next week,set_reminder
+Remind me about the appointment,set_reminder
+Remind me to drink water every hour,set_reminder
+Set a reminder for my medicine at 9 pm,set_reminder
+Remind me to submit the assignment,set_reminder
+Set reminder for grocery shopping,set_reminder
+Remind me next Monday morning,set_reminder
+remind me to do my task next Monday,set_reminder
+remind me to do my task 7 am,set_reminder
+remind me to do my task tomorrow morning,set_reminder
+remind me to do my task next Monday,set_reminder
+remind me to do my task tomorrow morning,set_reminder
+Play some music,play_music
+Play the song Believer,play_music
+Play romantic songs,play_music
+Play my favorite playlist,play_music
+Play a song for me,play_music
+Play relaxing music,play_music
+Play the latest songs,play_music
+Play some Bollywood songs,play_music
+Play Shape of You,play_music
+Play music for workout,play_music
+play the song Perfect,play_music
+play the song Perfect,play_music
+play the song Here Comes the Sun,play_music
+play the song Here Comes the Sun,play_music
+play the song Shape of You,play_music
+Book a hotel in Mumbai,book_hotel
+I need a hotel room in Delhi tomorrow,book_hotel
+Reserve a hotel in Chennai,book_hotel
+Find me hotels in Bangalore,book_hotel
+Book a room for two nights,book_hotel
+Book a hotel near airport in Kolkata,book_hotel
+Reserve a deluxe room in Mumbai,book_hotel
+I want to book a hotel for this weekend,book_hotel
+Find cheap hotels in Chennai,book_hotel
+Book Taj hotel in Delhi,book_hotel
+book a hotel in Hyderabad for tomorrow at Marriott,book_hotel
+book a hotel in Mumbai for today at ITC,book_hotel
+book a hotel in Chennai for this weekend at Radisson,book_hotel
+book a hotel in Pune for today at Radisson,book_hotel
+book a hotel in Chennai for next week at Hyatt,book_hotel
+convert 100 USD to INR, currency_convert
+how much is 50 euros in dollars, currency_convert
+change 2000 INR to USD, currency_convert
+convert british pounds to euros, currency_convert
+usd to inr conversion, currency_convert
+exchange euros to rupees, currency_convert
+how many rupees is 1 dollar, currency_convert
+convert 75 gbp to usd, currency_convert
+convert currency for me, currency_convert
+convert rupees to dollars, currency_convert
+how much is 10 gbp in inr, currency_convert
+convert 5000 yen to usd, currency_convert
+convert 20 dollars into euros, currency_convert
+INR to USD exchange rate please, currency_convert
+how much will 30 euros be in rupees, currency_convert

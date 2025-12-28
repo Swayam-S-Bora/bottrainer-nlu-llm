@@ -1,0 +1,305 @@
+{
+  "intents": [
+    {
+      "name": "greet",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "hi bot",
+        "hello there",
+        "hey buddy",
+        "what's up",
+        "yo",
+        "hello!",
+        "good to see you",
+        "hiya"
+      ],
+      "entities": []
+    },
+    {
+      "name": "book_flight",
+      "examples": [
+        "Book a flight to Delhi",
+        "I want to fly to Mumbai tomorrow",
+        "Book me a ticket to Chennai on Friday",
+        "I need a flight to Bangalore",
+        "Reserve a seat to Kolkata next week",
+        "Get me a flight to Delhi on Monday",
+        "Schedule a flight to Mumbai",
+        "I want to book airfare to Chennai",
+        "Book flight tickets to Bangalore",
+        "I am traveling to Kolkata next month",
+        "Find me a flight to Delhi",
+        "I need to go to Mumbai this weekend",
+        "Please book my flight to Chennai",
+        "Reserve airline tickets to Bangalore",
+        "Book my travel to Kolkata"
+      ],
+      "entities": [
+        "location",
+        "date"
+      ]
+    },
+    {
+      "name": "order_food",
+      "examples": [
+        "Order me a pizza",
+        "I want to eat biryani",
+        "Get me a burger",
+        "Order noodles for dinner",
+        "I want to order pasta",
+        "Please order a pizza for me",
+        "Can you get biryani?",
+        "Order two burgers",
+        "I need noodles",
+        "Order pasta for lunch",
+        "Get me some pizza",
+        "I feel like eating biryani",
+        "Place a food order",
+        "Order dinner for me",
+        "Can I order food?"
+      ],
+      "entities": [
+        "food_item"
+      ]
+    },
+    {
+      "name": "cancel_booking",
+      "examples": [
+        "Cancel my flight booking",
+        "I want to cancel my ticket",
+        "Cancel my reservation",
+        "Please cancel my booking",
+        "I need to cancel my flight",
+        "Cancel the ticket I booked",
+        "I want to call off my reservation",
+        "Cancel my travel plans",
+        "Cancel my airline booking",
+        "Stop my flight booking",
+        "I don't want this booking anymore",
+        "Cancel everything",
+        "Please cancel my ticket",
+        "I want a cancellation",
+        "Cancel the booking immediately"
+      ],
+      "entities": [
+        "location",
+        "date"
+      ]
+    },
+    {
+      "name": "check_weather",
+      "examples": [
+        "What's the weather in Delhi?",
+        "Is it raining in Mumbai?",
+        "Tell me the weather forecast for Chennai",
+        "How is the weather in Bangalore today?",
+        "Will it be sunny in Kolkata tomorrow?",
+        "What's today's weather in Delhi?",
+        "Give me the weather update for Mumbai",
+        "How hot is it in Chennai?",
+        "Weather forecast for Bangalore",
+        "Is Kolkata cold today?",
+        "Tell me tomorrow's weather in Delhi",
+        "How is the climate in Mumbai?",
+        "Any rain expected in Chennai?",
+        "Weather report for Bangalore",
+        "What's the weather like in Kolkata?"
+      ],
+      "entities": [
+        "location",
+        "date"
+      ]
+    },
+    {
+      "name": "track_order",
+      "examples": [
+        "Track my order",
+        "Where is my order?",
+        "Check my order status",
+        "I want to track my food order",
+        "Track my delivery",
+        "Where is my package?",
+        "Is my order on the way?",
+        "Track my recent order",
+        "Check delivery status",
+        "Tell me my order location",
+        "When will my order arrive?",
+        "Track my shipment",
+        "Check order progress",
+        "Order tracking please",
+        "Help me track my order"
+      ],
+      "entities": [
+        "location",
+        "date"
+      ]
+    },
+    {
+      "name": "set_reminder",
+      "examples": [
+        "Remind me to call mom tomorrow",
+        "Set a reminder for 6 pm",
+        "Remind me to study tonight",
+        "Set reminder for meeting next week",
+        "Remind me about the appointment",
+        "Remind me to drink water every hour",
+        "Set a reminder for my medicine at 9 pm",
+        "Remind me to submit the assignment",
+        "Set reminder for grocery shopping",
+        "Remind me next Monday morning",
+        "remind me to do my task next Monday",
+        "remind me to do my task 7 am",
+        "remind me to do my task tomorrow morning",
+        "remind me to do my task next Monday",
+        "remind me to do my task tomorrow morning"
+      ],
+      "entities": [
+        "date",
+        "time"
+      ]
+    },
+    {
+      "name": "play_music",
+      "examples": [
+        "Play some music",
+        "Play the song Believer",
+        "Play romantic songs",
+        "Play my favorite playlist",
+        "Play a song for me",
+        "Play relaxing music",
+        "Play the latest songs",
+        "Play some Bollywood songs",
+        "Play Shape of You",
+        "Play music for workout",
+        "play the song ehsan tera hoga mujh par",
+        "play kishore kumar songs",
+        "play the beatles",
+        "play the song Here Comes the Sun",
+        "play the song Shape of You"
+      ],
+      "entities": [
+        "song_name",
+        "artist"
+      ]
+    },
+    {
+      "name": "book_hotel",
+      "examples": [
+        "Book a hotel in Mumbai",
+        "I need a hotel room in Delhi tomorrow",
+        "Reserve a hotel in Chennai",
+        "Find me hotels in Bangalore",
+        "Book a room for two nights",
+        "Book a hotel near airport in Kolkata",
+        "Reserve a deluxe room in Mumbai",
+        "I want to book a hotel for this weekend",
+        "Find cheap hotels in Chennai",
+        "Book Taj hotel in Delhi",
+        "book a hotel in Hyderabad for tomorrow at Marriott",
+        "book a hotel in Mumbai for today at ITC",
+        "book a hotel in Chennai for this weekend at Radisson",
+        "book a hotel in Pune for today at Radisson",
+        "book a hotel in Chennai for next week at Hyatt"
+      ],
+      "entities": [
+        "location",
+        "date",
+        "hotel_name"
+      ]
+    },
+    {
+      "name": "currency_convert",
+      "examples": [
+        "convert 100 USD to INR",
+        "how much is 50 euros in dollars",
+        "change 2000 INR to USD",
+        "convert british pounds to euros",
+        "usd to inr conversion",
+        "exchange euros to rupees",
+        "how many rupees is 1 dollar",
+        "convert 75 gbp to usd",
+        "convert currency for me",
+        "convert rupees to dollars",
+        "how much is 10 gbp in inr",
+        "convert 5000 yen to usd",
+        "convert 20 dollars into euros",
+        "INR to USD exchange rate please",
+        "how much will 30 euros be in rupees"
+      ],
+      "entities": ["amount", "source_currency", "target_currency"]
+    }
+  ],
+  "entities": {
+    "location": [
+      "Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bangalore",
+      "Nagpur"
+    ],
+    "food_item": [
+      "pizza",
+      "biryani",
+      "burger",
+      "noodles",
+      "pasta"
+    ],
+    "song_name": [
+      "Believer",
+      "Shape of You",
+      "Perfect",
+      "Bohemian Rhapsody",
+      "Stairway to Heaven"
+    ],
+    "hotel_name": [
+      "Taj",
+      "Radison",
+      "ITC",
+      "Marriott",
+      "Hyatt"
+    ],
+    "date": [
+      "today",
+      "tomorrow",
+      "next week",
+      "this weekend",
+      "next month",
+      "Monday",
+      "Friday",
+      "this year",
+      "next Monday"
+    ],
+    "person_name": [
+      "Swayam",
+      "Alice",
+      "Rahul",
+      "Bob",
+      "Rekha"
+    ],
+    "artist": [
+      "Lata Mangeshkar",
+      "The Beatles",
+      "Kishore Kumar",
+      "One Direction",
+      "Eminem"
+    ],
+    "source_currency": [
+      "USD", 
+      "EUR", 
+      "GBP", 
+      "INR"
+    ],
+    "target_currency": [
+      "USD", 
+      "EUR", 
+      "GBP", 
+      "INR"
+    ]
+  }
+}
