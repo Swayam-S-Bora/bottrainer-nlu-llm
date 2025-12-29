@@ -18,14 +18,6 @@ VALID_INTENTS = {
 }
 
 def normalize(label: str) -> str:
-    """
-    Normalize intent strings so that variants like:
-    'Book Flight', 'book_flight-', 'book flight'
-
-    all map to:
-    'book_flight'
-    """
-
     if label is None:
         return "unknown"
 
