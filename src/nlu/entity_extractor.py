@@ -22,7 +22,7 @@ def get_entities(text: str):
     # direct open-vocabulary extraction
     result = extract_entities(
         text=text,
-        entity_list=[]  # no restriction list
+        entity_list=[]
     )
 
     entities = result.get("entities", {})
